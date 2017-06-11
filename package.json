@@ -1,0 +1,26 @@
+{
+  "name": "export-server",
+  "version": "1.0.0",
+  "description": "HTML/SVG export server that uses phantomjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "phantomjs dist/server.js",
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --watch --config rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "phantomjs-prebuilt": "^2.1.14",
+    "rollup": "^0.42.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/phantom": "^3.2.1",
+    "rollup-watch": "^4.0.0"
+  }
+}
