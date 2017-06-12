@@ -1,19 +1,19 @@
 {
-    "compilerOptions": {
-        "lib": [
-            "dom",
-            "es2015"
-        ],
-        "target": "es3",
-        "moduleResolution": "node",
-        "module": "es6",
-        "outDir": "dist",
-        "sourceMap": true
-    },
-    "exclude": [
-        "node_modules"
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es2015"
     ],
-    "include": [
-        "src"
-    ]
+    "target": "es3",
+    "moduleResolution": "node",
+    "module": "es6",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src"
+  ]
 }

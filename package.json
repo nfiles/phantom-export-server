@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "phantomjs dist/server.js",
+    "clean": "rm -rf dist",
     "build": "rollup --config rollup.config.js",
     "watch": "rollup --watch --config rollup.config.js"
   },
